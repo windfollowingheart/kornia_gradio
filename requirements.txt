@@ -5,3 +5,4 @@ kornia
 gradio
 numpy
 Pillow
+pydantic==2.10.6
