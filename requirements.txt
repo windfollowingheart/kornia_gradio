@@ -1,0 +1,7 @@
+torch
+torchvision
+torchmetrics
+kornia
+gradio
+numpy
+Pillow
