@@ -27,7 +27,6 @@
 - filter example:
 ```json
 [
-    ...
 
     {
         "type": "filter",
@@ -41,14 +40,12 @@
         }
     },
 
-    ...
 ]
 ```
 
 - color example:
 ```json
 [
-    ...
 
     {
         "type": "color",
@@ -58,14 +55,12 @@
         }
     },
 
-    ...
 ]
 ```
 
 - resize example:
 ```json
 [
-    ...
 
     {
         "type": "resize",
@@ -75,10 +70,9 @@
         }
     },
 
-    ...
 ]
 ```
-You can find examples in `examples/configs/test.json`
+You can find examples in `examples/configs/test.json`. The order of module execution is consistent with the dictionary order in the configuration file.
 
 ### 1.3 Attentions
 1. You shold submit json file before submit image.
