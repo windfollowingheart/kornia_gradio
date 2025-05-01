@@ -9,7 +9,8 @@
 ## 1. How to use
 
 ### 1.1 Prepare
-1. If you don't have conda virtual environment, create it: `conda create -n kornia_gradio python=3.9`
+1. If you don't have conda virtual environment, create it: `conda create -n kornia_gradio python=3.9`,
+then activate it: `conda activate kornia_gradio`
 
 2. Install package: `pip install -r requirements.txt`
 

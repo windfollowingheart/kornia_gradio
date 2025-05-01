@@ -9,7 +9,7 @@
 ## 1. 如何使用
 
 ### 1.1 准备工作
-1. 如果你没有 Conda 虚拟环境，请创建它：`conda create -n kornia_gradio python=3.9`
+1. 如果你没有 Conda 虚拟环境，请创建它：`conda create -n kornia_gradio python=3.9`, 然后激活该环境：`conda activate kornia_gradio`
 
 2. 安装软件包：`pip install -r requirements.txt`
 
