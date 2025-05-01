@@ -4,3 +4,7 @@ image_infer
 test
 asserts
 src1
+__pycache__
+
+!examples/configs
+

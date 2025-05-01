@@ -1,0 +1,110 @@
+
+[
+    {
+        "type": "filter",
+        "name": "bilateral_blur",
+        "params": {
+            "kernel_size": [3, 3],
+            "sigma_color": 0.1,
+            "sigma_space": [1.5, 1.5],
+            "border_type": "reflect",
+            "color_distance_type": "l1"
+        }
+    },
+    {
+        "type": "filter",
+        "name": "bilateral_blur",
+        "params": {
+            "kernel_size": [3, 3],
+            "sigma_color": 0.1,
+            "sigma_space": [1.5, 1.5],
+            "border_type": "reflect",
+            "color_distance_type": "l1"
+        }
+    },
+    {
+        "type": "filter",
+        "name": "box_blur",
+        "params": {
+            "kernel_size": [10, 10],
+            "border_type": "reflect",
+            "separable": false
+        }
+    },
+    {
+        "type": "filter",
+        "name": "gaussian_blur2d",
+        "params": {
+            "kernel_size": [3, 3],
+            "sigma": [1.5, 1.5],
+            "border_type": "reflect",
+            "separable": true
+        }
+    },
+    {
+        "type": "filter",
+        "name": "max_blur_pool2d",
+        "params": {
+            "kernel_size": [3, 3],
+            "stride": 2,
+            "max_pool_size": 2,
+            "ceil_mode": false
+        }
+    },
+    {
+        "type": "filter",
+        "name": "median_blur",
+        "params": {
+            "kernel_size": [3, 3]
+        }
+    },
+    {
+        "type": "filter",
+        "name": "motion_blur",
+        "params": {
+            "kernel_size": [3, 3],
+            "angle": 90.0,
+            "direction": 0.0,
+            "border_type": "reflect",
+            "mode": "nearest"
+        }
+    },
+    {
+        "type": "filter",
+        "name": "unsharp_mask",
+        "params": {
+            "kernel_size": [3, 3],
+            "sigma": [1.5, 1.5],
+            "border_type": "reflect"
+        }
+    },
+    {
+        "type": "filter",
+        "name": "blur_pool2d",
+        "params": {
+            "kernel_size": [3, 3],
+            "stride": 2
+        }
+    },
+
+    
+    {
+        "type": "color",
+        "name": "rgb_to_grayscale",
+        "params": {
+            "rgb_weights": null
+        }
+    },
+    {
+        "type": "color",
+        "name": "grayscale_to_rgb",
+        "params": {}
+    },
+    {
+        "type": "resize",
+        "params": {
+            "h": 600,
+            "w": 400
+        }
+    }
+]
