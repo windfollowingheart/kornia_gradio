@@ -64,6 +64,8 @@ def process_image(image: torch.Tensor, config: list[dict]) -> torch.Tensor:
             h = item['params']['h']
             w = item['params']['w']
             output = resize_image(output, h, w)
+    
+    output = torch.clip(output, 0, 1) # 避免超出范围
         
     return output
 
